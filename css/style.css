@@ -1,0 +1,411 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*Header section Start*/
+
+header {
+	background-color: white;
+	padding: 20px 0px;
+	width: 100%;
+	float :left;
+
+}
+
+.logo {
+	width: 40%;
+	float: left;
+}
+
+.menu {
+	width: 60%;
+	float: right;
+
+}
+
+
+nav ul {
+	list-style: none;
+
+
+
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 9px 11px;
+
+}
+
+nav ul li a {
+	color: #9f9f9f;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+/*Banner Section*/
+
+
+.banner {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+}
+
+.banner-content {
+	padding-top: 200px;
+	padding-bottom: 80px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.banner-content h2 {
+	font-size: 36px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.banner-content p {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+
+.btn-cstm {
+	background: #99c50a;
+	padding: 19px 31px;
+	color: white;
+	margin: 5% 0;
+	border: none;
+	border-radius: 15px;
+}
+
+
+/*About Section*/
+
+
+.about {
+	background-color:white;
+	padding: 80px 0px;
+	width: 100%;
+	float: left;
+
+
+}
+
+.about-content {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.about-content img {
+
+
+}
+
+.about-content h1 {
+
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #515151;
+	 margin-top: 30px;
+
+}
+
+.about-content h2 {
+	margin-bottom: 40px;
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #515151;
+
+}
+
+.about-content p {
+	color: #999999;
+	 text-align: center;
+    font-size: 20px
+
+}
+
+/*feaure Section*/
+
+.feature {
+	width: 100%;
+	float: left;
+
+
+}
+
+.featureone {
+	width: 50%;
+	float: left;
+	background-color: #e2f8ff;
+	padding: 77px 4px;
+
+}
+.image {
+	width: 50%;
+	float: left;
+
+}
+.image img {
+
+}
+
+.content {
+	width: 50%;
+	float: left;
+
+
+
+}
+
+
+.featureone h2 {
+	padding: 25px 0;
+
+
+}
+
+.featureone p {
+
+}
+.btn-cstm1 { 
+	background: #26a6d1;
+	padding: 20px 25px;
+	color: white;
+	margin: 5% 0;
+	border: none;
+	border-radius: 15px;
+
+}
+
+.featuretwo {
+	width: 47%;
+	float: left;
+	background-color: #f5f9eb;
+	 padding: 77px 13px;
+
+}
+
+.contentonne {
+	width: 50%;
+	float: left;
+
+}
+.contentonne img {
+
+}
+
+
+.contenttwo {
+	width: 50%;
+	float: left;
+}
+
+.contenttwo h2 {
+	padding: 25px 0;
+
+}
+
+.contenttwo p {
+
+}
+.btn-cstm2 {
+	background: #add136;
+    padding: 20px 25px;
+    color: white;
+    margin: 5% 0;
+    border: none;
+    border-radius: 11px;
+
+}
+
+/*Project conteent Section*/
+
+.project-content {
+	width: 100%;
+	float: left;
+	margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.projectone {
+	width: 80%;
+	float: left;
+
+}
+
+.projectone h2 {
+	margin-bottom: 10px;
+	font-size: 30px;
+
+}
+
+.projectone p {
+	color: #8f8f8f;
+
+}
+.featureeetwo {
+	width: 20%;
+	float: right;
+	margin-top: -70px;
+}
+
+.btn-cstm3 {
+	background: white;
+	padding: 19px 31px;
+	color: #c6c6c6;
+	border: 1px solid #15a4fa;
+	border-radius: 15px;
+	display: inline-block;
+
+
+}
+
+.projecttwo {
+	    padding: 160px 0px;
+
+}
+
+.project-onee {
+	width: 33.33%;
+	float: left;
+
+}
+.project-onee h2 {
+
+}
+
+.project-onee p {
+	color: #a3a3a3;
+
+}
+
+.project-onee h3 {
+	  font-size: 15px;
+    padding: 77px 0px;
+
+}
+.project-onee h4 {
+
+	margin: -99px 137px;
+
+}
+
+.btn-cstm4 {
+    background: white;
+    padding: 18px 24px;
+    color: black;
+     border-radius: 14px;
+    margin-top: 120px;
+
+}
+
+.project-twoo {
+	width: 33.33%;
+	float: left
+
+
+}
+.project-twoo h2 {
+
+}
+
+.project-twoo p {
+	color: #a3a3a3;
+
+}
+
+.project-twoo h3 {
+	  font-size: 15px;
+    padding: 77px 0px;
+
+}
+.project-twoo h4 {
+
+	margin: -99px 137px;
+
+}
+
+.btn-cstm5 {
+    background: white;
+    padding: 18px 24px;
+    color: black;
+     border-radius: 14px;
+    margin-top: 120px;
+
+}
+
+.project-threee {
+	width: 33.33%;
+	float: left
+
+
+}
+.project-threee h2 {
+
+}
+
+.project-threee p {
+	color: #a3a3a3;
+
+}
+
+.project-threee h3 {
+	  font-size: 15px;
+    padding: 77px 0px;
+
+}
+.project-threee h4 {
+
+	margin: -99px 137px;
+
+}
+
+.btn-cstm6 {
+    background: white;
+    padding: 18px 24px;
+    color: black;
+     border-radius: 14px;
+    margin-top: 120px;
+
+}
+
+.copyright {
+	width: 100%;
+	float: left;
+}
+
+.copyright-credit {
+	width: 100%;
+	float: left;
+
+}
+
+.copyright-credit h2 {
+	text-align: center;
+	color: #9d9d9d;
+	 margin: 25px 0;
+
+
+}
